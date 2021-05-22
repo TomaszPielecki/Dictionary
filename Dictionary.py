@@ -1,3 +1,5 @@
+import pprint
+
 Person = {
     'firstName': 'Tomasz',
     'secondName': 'Pielecki',
@@ -24,3 +26,26 @@ print(Person2['firstName'], ':', Person2['town'])
 Person2['car'] = 'Vw polo'
 
 print(Person2['firstName'], ':', Person2['town'], ':', Person2['car'])
+
+
+People = {'Adam': {
+    'firstName': 'Tomasz',
+    'secondName': 'Pielecki',
+    'age': 34,
+    'country': 'poland',
+    'town': 'Kartuzy',
+    'Job': 'Car driver',
+    'status': 'student'
+    }
+}
+
+People = {'Olivier':{
+    'firstName': 'Janusz',
+    'secondName': 'Wierzbicki',
+    'age': 54,
+    'country': 'poland',
+    'town': 'Malbork',
+    'Job': 'Bus diriver',
+    'status': 'worker'
+    }
+ }
